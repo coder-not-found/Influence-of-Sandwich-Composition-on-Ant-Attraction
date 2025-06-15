@@ -1,10 +1,39 @@
-# Influence-of-Sandwich-Composition-on-Ant-Attraction
+# Influence of Sandwich Composition on Ant Attraction
 
-The experiment aimed to investigate the influence of three independent variables - bread type, topping, and butter presence - on a dependent variable: the number of attracted ants. The study involved placing 24 different sandwich configurations near an ant hill, one after another, in a randomized order to minimize bias from temporal effects or ant foraging patterns. After a predetermined exposure time, a glass bell was placed over each sandwich piece, and the attracted ants were counted.
+## Overview
 
-The dataset, sourced from the student's experiment, consists of 48 rows and 4 columns:
+This experiment investigates how the composition of a sandwich influences its attractiveness to ants. Specifically, it explores the effects of three independent variables:
 
-antCount: Quantitative variable, representing the number of attracted ants.
-bread: Categorical variable, representing the type of bread.
-topping: Categorical variable, representing the sandwich topping.
-butter: Categorical variable, indicating the presence or absence of butter.
+* **Bread Type**
+* **Topping**
+* **Butter Presence**
+
+on the dependent variable:
+
+* **Ant Count** (number of ants attracted)
+
+## Experimental Design
+
+* **Procedure**:
+  24 unique sandwich configurations were created by varying the combinations of bread, topping, and butter. Each sandwich was placed near an ant hill in a randomized order to control for time-based or environmental biases in ant activity. After a set exposure time, a glass bell was placed over each sandwich to trap the ants for accurate counting.
+
+* **Objective**:
+  To determine whether specific combinations of sandwich components significantly influence the number of ants attracted.
+
+## Dataset
+
+The dataset consists of **48 observations** with the following variables:
+
+| Variable   | Type         | Description                                             |
+| ---------- | ------------ | ------------------------------------------------------- |
+| `antCount` | Quantitative | Number of ants attracted to the sandwich                |
+| `bread`    | Categorical  | Type of bread used (e.g., Rye, White, etc.)             |
+| `topping`  | Categorical  | Type of topping (e.g., Ham and Gherkins, Peanut Butter) |
+| `butter`   | Categorical  | Indicates presence (`yes`) or absence (`no`) of butter  |
+
+## Notes
+
+* The experiment emphasizes control over potential confounding factors by using randomized presentation and uniform observation duration.
+* This dataset is suitable for conducting statistical analyses such as ANOVA and post-hoc tests to explore interaction effects.
+
+
